@@ -5,6 +5,7 @@ gemspec
 
 group :development do
   gem "vagrant", path: '../vagrant/'
+  gem 'pry'
 end
 
 group :plugins do
