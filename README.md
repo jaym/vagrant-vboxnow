@@ -1,4 +1,4 @@
-# Vagrant::Vboxnow
+# vagrant-vboxnow
 
 TODO: Write a gem description
 
