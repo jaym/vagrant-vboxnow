@@ -27,7 +27,7 @@ And then execute:
     $ bundle
 
 ## Usage
-bundle exec vagrant up
+    $ bundle exec vagrant up
 
 # Performance
 * Without vagrant-vboxnow
