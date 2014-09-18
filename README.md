@@ -8,9 +8,9 @@ clone to that one.
 
 Using VBoxManage, this looks something like
 
-$ VBoxManage import ~/.vagrant.d/boxes/box_name/0/virtualbox/box.ovf --vsys 0 --vmname test1
-$ VBoxManage snapshot test1 take ts
-$ VBoxManage clonevm test1 --snapshot tsn --options link --name test1_clone --registe
+    $ VBoxManage import ~/.vagrant.d/boxes/box_name/0/virtualbox/box.ovf --vsys 0 --vmname test1
+    $ VBoxManage snapshot test1 take ts
+    $ VBoxManage clonevm test1 --snapshot tsn --options link --name test1_clone --register
 
 ## Installation
 
@@ -51,8 +51,6 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Machine booted and ready!
 ==> default: Checking for guest additions in VM...
 ==> default: Setting hostname...
-==> default: Mounting shared folders...
-    default: /tk-share => /data/home/jaym/workspace/windows/.kitchen/kitchen-vagrant/default-windows2012r2/share
 vagrant up  10.05s user 4.31s system 5% cpu 4:34.39 total
 ```
 
@@ -77,8 +75,6 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: Machine booted and ready!
 ==> default: Checking for guest additions in VM...
 ==> default: Setting hostname...
-==> default: Mounting shared folders...
-    default: /tk-share => /data/home/jaym/workspace/windows/.kitchen/kitchen-vagrant/default-windows2012r2/share
 bundle exec vagrant up  6.50s user 3.14s system 10% cpu 1:35.61 total
 ```
 
