@@ -1,5 +1,5 @@
 # vagrant-vboxnow
-A [Vagrant](http://www.vagrantup.com/) to speed up creation of VirtualBox VMs.
+A [Vagrant](http://www.vagrantup.com/) plugin to speed up creation of VirtualBox VMs.
 
 ## How
 This plugin can speed up VM creation by not doing a full import each time. The vmdk
